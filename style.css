@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    background-color: cornflowerblue;
+    
+    margin-top:10vh;
+    margin-left: 65vh;
+    height: 70vh;
+    width:40%;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+h1{padding-top: 10vh;
+color:red;
+
+}
+#amount{
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 5px;
+    border:none;
+    padding-left: 5px;
+
+}
+.options{
+    height: 4vh;
+    border-radius: 5px;
+    
+}
+.result p{
+    background-color: whit;
+    height: 10vh;
+    width: 50%;
+    margin-left: 20vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2vh;
+    color:rgb(26, 28, 163);
+    text-shadow: 2px 1px 3px;
+    
+    
+}
+#button{
+    background-color: black;
+    color:seagreen;
+    width:20%;
+    height: 5vh;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 3px 2px 1px;
+}

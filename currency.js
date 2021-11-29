@@ -5,9 +5,9 @@ class Currency{
     }
     async getCurrencyData(firstCur,secondCur){
         const responsecurrencyData= await fetch(this.url + firstCur + "&to=" + secondCur);
-        console.log(responsecurrencyData);
+        // console.log(responsecurrencyData);
         const currencyData = await responsecurrencyData.json();
-        console.log(currencyData);
+        // console.log(currencyData);
         return currencyData
     }
 

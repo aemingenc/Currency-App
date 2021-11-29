@@ -5,95 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="currency-form"></form>
-        <div id="input-field">
-            <input type="number" name = "amount" id = "amount" placeholder="Amount">
-            
-        </div>
-
-        <div class="input-field col s8">
-                <select id = "firstCurrency">
+    <div id="container">
+        <h1>CURRENCY APP</h1>
+        <form id="currency-form"></form>
+            <div id="input-field">
+                <input type="number" name = "amount" id = "amount" placeholder="Enter an mount">
                 
-                    <option selected>USD</option>
-                    <option>EUR</option>
-                    <option>JPY</option>
-                    <option>BGN</option>
-                    <option>CZK</option>
-                    <option>DKK</option>
-                    <option>GBP</option>          
-                    <option>HUF</option>
-                    <option>PLN</option>
-                    <option>RON</option>
-                    <option>SEK</option>
-                    <option>CHF</option>
-                    <option>ISK</option>
-                    <option>NOK</option>          
-                    <option>HRK</option>
-                    <option>RUB</option>
-                    <option>TRY</option>
-                    <option>AUD</option>
-                    <option>BRL</option>          
-                    <option>CAD</option>
-                    <option>CNY</option>
-                    <option>HKD</option>
-                    <option>IDR</option>          
-                    <option>ILS</option>
-                    <option>INR</option>
-                    <option>KRW</option>
-                    <option>MXN</option>          
-                    <option>MYR</option>
-                    <option>NZD</option>
-                    <option>PHP</option>
-                    <option>SGD</option>
-                    <option>THB</option>          
-                    <option>ZAR</option>
-                </select>
+            </div><br>
 
-                <select id = "secondCurrency">
-                
-                    <option>USD</option>
-                    <option>EUR</option>
-                    <option>JPY</option>
-                    <option>BGN</option>
-                    <option>CZK</option>
-                    <option>DKK</option>
-                    <option>GBP</option>          
-                    <option>HUF</option>
-                    <option>PLN</option>
-                    <option>RON</option>
-                    <option>SEK</option>
-                    <option>CHF</option>
-                    <option>ISK</option>
-                    <option>NOK</option>          
-                    <option>HRK</option>
-                    <option>RUB</option>
-                    <option selected>TRY</option>
-                    <option>AUD</option>
-                    <option>BRL</option>          
-                    <option>CAD</option>
-                    <option>CNY</option>
-                    <option>HKD</option>
-                    <option>IDR</option>          
-                    <option>ILS</option>
-                    <option>INR</option>
-                    <option>KRW</option>
-                    <option>MXN</option>          
-                    <option>MYR</option>
-                    <option>NZD</option>
-                    <option>PHP</option>
-                    <option>SGD</option>
-                    <option>THB</option>          
-                    <option>ZAR</option>
-                </select>
-                
-        </div>
-</form>
-<button type="submit" id="button">RUN</button>
-<div class="result">
-    <p id = "outputResult" placeholder = "Result" style="border: black 1px solid;"> </p>
+            <div class="input-field">
+                    <select id = "firstCurrency" class="options">
+                    
+                        <option selected>USD</option>
+                        <option>EUR</option>
+                        <option>JPY</option>
+                        <option>BGN</option>
+                        <option>CZK</option>
+                        <option>DKK</option>
+                        <option>GBP</option>          
+                        <option>HUF</option>
+                        <option>PLN</option>
+                        <option>RON</option>
+                        <option>SEK</option>
+                        <option>CHF</option>
+                        <option>ISK</option>
+                        <option>NOK</option>          
+                        <option>HRK</option>
+                        <option>RUB</option>
+                        <option>TRY</option>
+                        <option>AUD</option>
+                        <option>BRL</option>          
+                        <option>CAD</option>
+                        <option>CNY</option>
+                        <option>HKD</option>
+                        <option>IDR</option>          
+                        <option>ILS</option>
+                        <option>INR</option>
+                        <option>KRW</option>
+                        <option>MXN</option>          
+                        <option>MYR</option>
+                        <option>NZD</option>
+                        <option>PHP</option>
+                        <option>SGD</option>
+                        <option>THB</option>          
+                        <option>ZAR</option>
+                    </select>
 
+                    <select id = "secondCurrency" class="options" >
+                    
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option>JPY</option>
+                        <option>BGN</option>
+                        <option>CZK</option>
+                        <option>DKK</option>
+                        <option>GBP</option>          
+                        <option>HUF</option>
+                        <option>PLN</option>
+                        <option>RON</option>
+                        <option>SEK</option>
+                        <option>CHF</option>
+                        <option>ISK</option>
+                        <option>NOK</option>          
+                        <option>HRK</option>
+                        <option>RUB</option>
+                        <option selected>TRY</option>
+                        <option>AUD</option>
+                        <option>BRL</option>          
+                        <option>CAD</option>
+                        <option>CNY</option>
+                        <option>HKD</option>
+                        <option>IDR</option>          
+                        <option>ILS</option>
+                        <option>INR</option>
+                        <option>KRW</option>
+                        <option>MXN</option>          
+                        <option>MYR</option>
+                        <option>NZD</option>
+                        <option>PHP</option>
+                        <option>SGD</option>
+                        <option>THB</option>          
+                        <option>ZAR</option>
+                    </select>
+                    
+            </div>
+    </form><br>
+    <button type="submit" id="button">RUN</button><br><br>
+    <div class="result">
+        <p id = "outputResult" placeholder = "Result" ></p>
+
+    </div>
 </div>
 
 

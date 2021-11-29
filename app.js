@@ -4,7 +4,6 @@ const secondCurrency=document.getElementById("secondCurrency");
 const run=document.getElementById("button");
 const result = document.getElementById("outputResult");
 const currency = new Currency();
-console.log(inputField,firstCurrency,secondCurrency,run,result);
 
 run.addEventListener("click", (e)=>{
     let fCurrency = firstCurrency.options[firstCurrency.selectedIndex].value;
